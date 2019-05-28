@@ -1,6 +1,7 @@
 import firstNames from "./data/firstNames/index";
 import lastNames from "./data/lastNames/index";
 import races from "./data/races/index";
+import classes from "./data/classes/index";
 import { generateChances, pick } from "./utils";
 
 const gender = generateChances([
@@ -23,6 +24,7 @@ const generatCharacter = (races, gender, firstNames) => {
     firstNames[characterRace.abbreviation][characterGender.abbreviation]
   );
   const characterLastName = pick(lastNames[characterRace.abbreviation]);
+  const characterClass = pick(classes);
 
   console.log(JSON.stringify(firstNames, null, 2));
   console.log(JSON.stringify(generateChances(races).length, null, 2));
@@ -61,7 +63,8 @@ const generatCharacter = (races, gender, firstNames) => {
     characterGender,
     characterRace,
     characterFirstName,
-    characterLastName
+    characterLastName,
+    characterClass
   };
 };
 

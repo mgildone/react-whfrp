@@ -12,7 +12,8 @@ function App() {
     <div className="App">
       <p>
         Hello {character.characterFirstName} {character.characterLastName}, you
-        are a {character.characterRace.name} {character.characterGender.name}
+        are a {character.characterRace.name} {character.characterGender.name}{" "}
+        {character.characterClass}
       </p>
     </div>
   );
