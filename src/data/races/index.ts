@@ -1,4 +1,9 @@
-const races = [
+interface race {
+  name: string;
+  pct: number;
+  abbreviation: string;
+}
+const races: race[] = [
   {
     name: "Human",
     pct: 90,
