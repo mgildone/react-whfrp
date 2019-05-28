@@ -1,9 +1,15 @@
-import firstNames from "../data/firstNames/index";
+import { Genders, Races, firstNames } from "../data/firstNames/index";
 import lastNames from "../data/lastNames/index";
 import races from "../data/races/index";
 import classes from "../data/classes/index";
 import { chances } from "./chances";
 import { pick } from "./pick";
+
+interface IGeneric {
+  name: string;
+  pct: number;
+  abbreviation: string;
+}
 
 const gender = chances([
   {
@@ -18,22 +24,22 @@ const gender = chances([
   }
 ]);
 
-const generatCharacter = (
-  races: {
-    name: string;
-    pct: number;
-    abbreviation: string;
-  }[],
-  gender: {
-    name: string;
-    pct: number;
-    abbreviation: string;
-  }[],
-  firstNames: { human: { M: string[]; F: string[] } }
+const generateCharacter = (
+  races: IGeneric[],
+  gender: IGeneric[],
+  firstNames: { [key in Races]: { [key1 in Genders]: string[] } }
 ) => {
-  const characterGender = pick(gender);
+  const characterGender: {
+    name: string;
+    pct: number;
+    abbreviation: string;
+  } = pick(gender);
   const characterRace = pick(chances(races));
-  console.log(characterGender, characterRace);
+  const key = characterRace.abbreviation;
+  const characterFirstName = pick(
+    firstNames[key][characterGender.abbreviation]
+  );
+  console.log(characterGender, characterRace, characterFirstName);
   return {};
   //   const characterFirstName = pick(
   //     firstNames[characterRace.abbreviation][characterGender.abbreviation]
@@ -50,4 +56,4 @@ const generatCharacter = (
   //   };
 };
 
-export default generatCharacter(races, gender, firstNames);
+export default generateCharacter(races, gender, firstNames);
