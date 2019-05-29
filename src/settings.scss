@@ -1,37 +1,34 @@
 $colors: (
-  "text":#2B2526,
+  "text": #2b2526,
   "base": (
-    "normal": #D3B78D,
-    "light": lighten(#D3B78D, 20%),
-    "dark": darken(#D3B78D, 15%)
+    "normal": #d3b78d,
+    "light": lighten(#d3b78d, 20%),
+    "dark": darken(#d3b78d, 15%)
   ),
   "danger": (
-    "normal": #C73936,
-    "light": lighten(#C73936, 20%),
-    "dark": darken(#C73936, 15%)
+    "normal": #c73936,
+    "light": lighten(#c73936, 20%),
+    "dark": darken(#c73936, 15%)
   ),
   "secondary": (
-    "normal": #8B6656,
-    "light": lighten(#8B6656, 20%),
-    "dark": darken(#8B6656, 15%)
+    "normal": #8b6656,
+    "light": lighten(#8b6656, 20%),
+    "dark": darken(#8b6656, 15%)
   )
 );
 
-//brick red #C73936
-//tan #D3B78D
-//black #2B2526
-//dim grey #8B6656
-//slate grey #66746D
-
+$brick-red: #c73936;
+$tan: #d3b78d;
+$black: #2b2526;
+$dim-grey: #8b6656;
+$slate-grey: #66746d;
 
 // font-family: 'Eagle Lake', cursive;
 
 // font-family: 'Felipa', cursive;
 
-
-
-$font-family-primary: 'Eagle Lake', cursive;
-$font-family-secondary: 'Redressed', cursive;
+$font-family-primary: "Eagle Lake", cursive;
+$font-family-secondary: "Redressed", cursive;
 
 $font-size-xxs: 10px;
 $font-size-xs: 12px;
