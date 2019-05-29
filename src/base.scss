@@ -1,0 +1,73 @@
+html {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  @include fluid-type($min_width, $max_width, $min_font, $max_font);
+  line-height: $line-height-base;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  background-color: var(--primary--light);
+  color: var(--primary--dark);
+  font-family: $font-family-primary;
+}
+
+h1 {
+  font-size: $mod_1 * $mod_1 * $mod_1 * $mod_1 * 1rem;
+  @include fluid-type(
+    $min_width,
+    $max_width,
+    $mod_1 * $mod_1 * $mod_1 * $min_font,
+    $mod_2 * $mod_2 * $mod_2 * $min_font
+  );
+}
+h2 {
+  font-size: $mod_1 * $mod_1 * $mod_1 * 1rem;
+  @include fluid-type(
+    $min_width,
+    $max_width,
+    $mod_1 * $mod_1 * $mod_1 * $min_font,
+    $mod_2 * $mod_2 * $mod_2 * $min_font
+  );
+}
+h3 {
+  font-size: $mod_1 * $mod_1 * 1rem;
+  @include fluid-type(
+    $min_width,
+    $max_width,
+    $mod_1 * $mod_1 * $min_font,
+    $mod_2 * $mod_2 * $min_font
+  );
+}
+
+a {
+    @include base-link;  
+    @include inherited;
+    @include unvisited;
+}
+
+.logo {
+  @include fluid-type($min_width, $max_width, $max_font, $max_font);
+  margin: 0;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  color: var(--primary--light);
+}
+.app-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  header {
+    padding: get-spacing("xs");
+    background-color: var(--primary--dark);
+    color: var(--primary--light);
+  }
+}
+
