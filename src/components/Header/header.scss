@@ -1,0 +1,17 @@
+@import "../../core";
+.c-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: get-spacing("xs");
+  background-color: color('danger', 'dark');
+  color: color('base', 'light');
+}
+
+.c-header__logo {
+  @include fluid-type($min_width, $max_width, $max_font, $max_font);
+  margin: get-spacing(0);
+  font-weight: 400;
+  color: color('base', 'light');
+}

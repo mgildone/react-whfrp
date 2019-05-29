@@ -20,8 +20,35 @@
   --black: #000;
 }
 
-$font-family-primary: "Nunito", sans-serif;
-$font-family-secondary: "Pacifico", cursive;
+$colors: (
+  "text":#2B2526,
+  "base": (
+    "normal": #D3B78D,
+    "light": lighten(#D3B78D, 15%),
+    "dark": darken(#D3B78D, 15%)
+  ),
+  "danger": (
+    "normal": #C73936,
+    "light": lighten(#C73936, 15%),
+    "dark": darken(#C73936, 15%)
+  )
+);
+
+//brick red #C73936
+//tan #D3B78D
+//black #2B2526
+//dim grey #8B6656
+//slate grey #66746D
+
+
+// font-family: 'Eagle Lake', cursive;
+
+// font-family: 'Felipa', cursive;
+
+
+
+$font-family-primary: 'Eagle Lake', cursive;
+$font-family-secondary: 'Eagle Lake', cursive;
 
 $font-size-xxs: 10px;
 $font-size-xs: 12px;

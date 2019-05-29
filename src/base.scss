@@ -13,9 +13,10 @@ html {
 
 html,
 body {
-  background-color: var(--primary--light);
-  color: var(--primary--dark);
+  background-color: color('base', 'light');
+  color: color('text');
   font-family: $font-family-primary;
+  line-height: 1.7;
 }
 
 h1 {
@@ -52,22 +53,8 @@ a {
     @include unvisited;
 }
 
-.logo {
-  @include fluid-type($min_width, $max_width, $max_font, $max_font);
-  margin: 0;
-  font-family: "Pacifico", cursive;
-  font-weight: 400;
-  color: var(--primary--light);
-}
-.app-header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  header {
-    padding: get-spacing("xs");
-    background-color: var(--primary--dark);
-    color: var(--primary--light);
-  }
+.c-intro {
+  margin-top: get-spacing("huge");
+  padding: get-spacing("xs");
 }
 
