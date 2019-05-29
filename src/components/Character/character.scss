@@ -1,0 +1,11 @@
+@import "../../core";
+
+.c-character__summary {
+  background-color: color('secondary', 'light');
+  color: color('danger', 'dark');
+  padding: get-spacing("xs");
+  line-height: 1;
+  h3 {
+    margin: get-spacing(0);
+  }
+}

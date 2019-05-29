@@ -9,6 +9,11 @@ $colors: (
     "normal": #C73936,
     "light": lighten(#C73936, 20%),
     "dark": darken(#C73936, 15%)
+  ),
+  "secondary": (
+    "normal": #8B6656,
+    "light": lighten(#8B6656, 20%),
+    "dark": darken(#8B6656, 15%)
   )
 );
 

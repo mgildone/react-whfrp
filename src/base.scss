@@ -53,8 +53,10 @@ a {
     @include unvisited;
 }
 
+h1, h2, h3, h4,h5,h6 { font-weight: 400;}
+
 .c-intro {
-  margin-top: get-spacing("xxl");
+  margin-top: get-spacing("huge");
   padding: get-spacing("xs");
 }
 

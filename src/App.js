@@ -7,7 +7,7 @@ function App() {
   const [character] = useState(generateCharacter);
   return (
     <div>
-      <Header />
+      <Header character={character} />
       <div className="c-intro">
         <p>
           Hello {character.characterFirstName} {character.characterLastName},

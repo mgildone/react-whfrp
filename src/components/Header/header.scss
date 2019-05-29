@@ -1,9 +1,11 @@
 @import "../../core";
-.c-header {
+.c-header__container {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
+}
+.c-header {
   padding: get-spacing("xs");
   background-color: color('danger', 'dark');
   color: color('base', 'light');
