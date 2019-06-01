@@ -5,6 +5,7 @@ import genders from "../data/genders";
 import classes from "../data/classes";
 import carrersMatrix from "../data/careers/matrix";
 import { pick } from "./pick";
+
 const generatCharacter = () => {
   const characterGender = pick(genders);
   const characterRace = pick(races);
@@ -12,9 +13,8 @@ const generatCharacter = () => {
     firstNames[characterRace.id][characterGender.abbreviation]
   );
   const characterLastName = pick(lastNames[characterRace.id]);
-  const characterCareer = pick(carrersMatrix[characterRace.id]);
+  const characterCareer = pick(carrersMatrix[`${characterRace.id}Chances`]);
   const characterClass = classes[Math.floor(characterCareer.id / 8)];
-
   return {
     characterGender,
     characterRace,

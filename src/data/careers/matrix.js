@@ -1,6 +1,6 @@
 import { chances } from "../../utils/chances";
 
-const human = chances([
+const human = [
   { id: 1, name: "Apothecary", pct: 1 },
   { id: 2, name: "Engineer", pct: 1 },
   { id: 3, name: "Lawyer", pct: 1 },
@@ -64,8 +64,8 @@ const human = chances([
   { id: 61, name: "Protagonist", pct: 1 },
   { id: 62, name: "Soldier", pct: 4 },
   { id: 64, name: "Warrior Priest", pct: 1 }
-]);
-const dwarf = chances([
+];
+const dwarf = [
   { id: 1, name: "Apothecary", pct: 1 },
   { id: 2, name: "Engineer", pct: 3 },
   { id: 3, name: "Lawyer", pct: 2 },
@@ -113,8 +113,8 @@ const dwarf = chances([
   { id: 61, name: "Protagonist", pct: 3 },
   { id: 62, name: "Soldier", pct: 3 },
   { id: 63, name: "Troll Slayer", pct: 4 }
-]);
-const halfling = chances([
+];
+const halfling = [
   { id: 1, name: "Apothecary", pct: 1 },
   { id: 2, name: "Engineer", pct: 1 },
   { id: 3, name: "Lawyer", pct: 2 },
@@ -162,8 +162,8 @@ const halfling = chances([
   { id: 58, name: "Guard", pct: 2 },
   { id: 60, name: "Pit Fighter", pct: 1 },
   { id: 62, name: "Soldier", pct: 3 }
-]);
-const helf = chances([
+];
+const helf = [
   { id: 1, name: "Apothecary", pct: 2 },
   { id: 3, name: "Lawyer", pct: 4 },
   { id: 5, name: "Physician", pct: 2 },
@@ -199,8 +199,8 @@ const helf = chances([
   { id: 60, name: "Pit Fighter", pct: 2 },
   { id: 61, name: "Protagonist", pct: 1 },
   { id: 62, name: "Soldier", pct: 2 }
-]);
-const welf = chances([
+];
+const welf = [
   { id: 7, name: "Scholar", pct: 1 },
   { id: 8, name: "Wizard", pct: 4 },
   { id: 10, name: "Artisan", pct: 5 },
@@ -223,6 +223,17 @@ const welf = chances([
   { id: 59, name: "Knight", pct: 2 },
   { id: 60, name: "Pit Fighter", pct: 2 },
   { id: 62, name: "Soldier", pct: 4 }
-]);
+];
 
-export default { human, dwarf, halfling, helf, welf };
+export default {
+  human,
+  dwarf,
+  halfling,
+  helf,
+  welf,
+  humanChances: chances(human),
+  dwarfChances: chances(dwarf),
+  halflingChances: chances(halfling),
+  helfChances: chances(helf),
+  welfChances: chances(welf)
+};
