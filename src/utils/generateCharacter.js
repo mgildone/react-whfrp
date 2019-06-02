@@ -35,18 +35,13 @@ const getCharacterStats = obj => {
   return Object.assign({}, obj, { stats });
 };
 
-console.log(
-  pipe(
-    getGender,
-    getRace,
-    getFirstName,
-    getLastName,
-    getCharacterCareer,
-    getCharacterClass,
-    getCharacterStats,
-    trace("+++ character +++")
-  )()
-);
+const getWounds = obj => {
+  const { stats } = obj;
+  const [WS, BS, S, T, I, Ag, Dex, Int, WP, Fel] = stats;
+  const wounds =
+    parseInt(S / 10, 10) + (2 + parseInt(T / 10, 10)) + parseInt(WP / 10, 10);
+  return Object.assign({}, obj, { wounds });
+};
 
 const generatCharacter = () => {
   return pipe(
@@ -57,6 +52,7 @@ const generatCharacter = () => {
     getCharacterCareer,
     getCharacterClass,
     getCharacterStats,
+    getWounds,
     trace("+++ character +++")
   )();
 };
