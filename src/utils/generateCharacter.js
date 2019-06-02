@@ -38,8 +38,11 @@ const getCharacterStats = obj => {
 const getWounds = obj => {
   const { stats } = obj;
   const [WS, BS, S, T, I, Ag, Dex, Int, WP, Fel] = stats;
+  const partialWounds = 2 + parseInt(T / 10, 10) + parseInt(WP / 10, 10);
   const wounds =
-    parseInt(S / 10, 10) + (2 + parseInt(T / 10, 10)) + parseInt(WP / 10, 10);
+    obj.race.id === "hafling"
+      ? partialWounds
+      : parseInt(S / 10, 10) + partialWounds;
   return Object.assign({}, obj, { wounds });
 };
 
