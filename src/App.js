@@ -10,16 +10,11 @@ function App() {
       <Header character={character} />
       <div className="c-intro">
         <p>
-          Hello {character.characterFirstName} {character.characterLastName},
-          you are a {character.characterRace.name}{" "}
-          {character.characterGender.name}.
+          Hello {character.firstName} {character.lastName}, you are a{" "}
+          {character.race.name} {character.gender.name}.
         </p>
         <p>
-          You live your life as a {character.characterClass}{" "}
-          {character.characterCareer.name}
-          {character.characterStats.map(stat => (
-            <span key={`stats-${stat}`}>{stat}</span>
-          ))}
+          You live your life as a {character.class} {character.career.name}
         </p>
       </div>
     </div>

@@ -6,7 +6,7 @@ export const tap = curry((fn, x) => {
 });
 
 export const trace = label => {
-  return tap(x => console.log(`== ${label}:  ${x}`));
+  return tap(x => console.log(`${label}:  ${JSON.stringify(x)}`));
 };
 
 export const map = curry((fn, arr) => arr.map(fn));

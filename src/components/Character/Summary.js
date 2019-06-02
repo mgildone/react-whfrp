@@ -2,20 +2,14 @@ import React from "react";
 import "./character.scss";
 
 function Summary(props) {
-  const {
-    characterFirstName,
-    characterLastName,
-    characterRace,
-    characterGender,
-    characterCareer
-  } = props.character;
+  const { firstName, lastName, race, gender, career } = props.character;
   return (
     <div className="c-character__summary">
       <h3>
-        {characterFirstName} {characterLastName}
+        {firstName} {lastName}
       </h3>
       <small>
-        {characterRace.name} {characterGender.name}, {characterCareer.name}
+        {race.name} {gender.name}, {career.name}
       </small>
     </div>
   );
