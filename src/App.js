@@ -17,6 +17,9 @@ function App() {
         <p>
           You live your life as a {character.characterClass}{" "}
           {character.characterCareer.name}
+          {character.characterStats.map(stat => (
+            <span key={`stats-${stat}`}>{stat}</span>
+          ))}
         </p>
       </div>
     </div>

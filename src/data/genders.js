@@ -3,12 +3,12 @@ const genders = chances([
   {
     name: "Male",
     pct: 50,
-    abbreviation: "M"
+    id: "M"
   },
   {
     name: "Female",
     pct: 50,
-    abbreviation: "F"
+    id: "F"
   }
 ]);
 
