@@ -421,37 +421,36 @@ export const careerList = [
   {
     id: 12,
     name: "Investigator",
-    advance: [["", "", ""], [""], [""], [""]],
     paths: [
       {
-        name: "",
-        advance: [],
+        name: "Sleuth",
+        advance: ["I", "Agi", "Int"],
         skills: [],
-        money: 4,
+        money: 100,
         talents: [],
         trappings: []
       },
       {
-        name: "",
-        advance: [""],
+        name: "Investigator",
+        advance: ["Fel"],
+        skills: [],
+        money: 200,
+        talents: [],
+        trappings: []
+      },
+      {
+        name: "Master Investigator",
+        advance: ["Agi"],
         skills: [],
         money: 300,
         talents: [],
         trappings: []
       },
       {
-        name: "",
-        advance: [""],
+        name: "Detective",
+        advance: ["WP"],
         skills: [],
-        money: 0,
-        talents: [],
-        trappings: []
-      },
-      {
-        name: "",
-        advance: [""],
-        skills: [],
-        money: 0,
+        money: 500,
         talents: [],
         trappings: []
       }
@@ -460,37 +459,36 @@ export const careerList = [
   {
     id: 13,
     name: "Merchant",
-    advance: [["", "", ""], [""], [""], [""]],
     paths: [
       {
-        name: "",
-        advance: [],
+        name: "Trader",
+        advance: ["Agi", "WP", "Fel"],
         skills: [],
-        money: 4,
+        money: 200,
         talents: [],
         trappings: []
       },
       {
-        name: "",
-        advance: [""],
+        name: "Merchant",
+        advance: ["Int"],
         skills: [],
-        money: 300,
+        money: 500,
         talents: [],
         trappings: []
       },
       {
-        name: "",
-        advance: [""],
+        name: "Master Merchant",
+        advance: ["I"],
         skills: [],
-        money: 0,
+        money: 1000,
         talents: [],
         trappings: []
       },
       {
-        name: "",
-        advance: [""],
+        name: "Merchant Prince",
+        advance: ["WS"],
         skills: [],
-        money: 0,
+        money: 3000,
         talents: [],
         trappings: []
       }
@@ -502,34 +500,34 @@ export const careerList = [
     advance: [["", "", ""], [""], [""], [""]],
     paths: [
       {
-        name: "",
-        advance: [],
+        name: "Rat Hunter",
+        advance: ["WS", "BS", "WP"],
         skills: [],
-        money: 4,
+        money: 3,
         talents: [],
         trappings: []
       },
       {
-        name: "",
-        advance: [""],
+        name: "Rat Catcher",
+        advance: ["T"],
+        skills: [],
+        money: 100,
+        talents: [],
+        trappings: []
+      },
+      {
+        name: "Sewer Jack",
+        advance: ["I"],
+        skills: [],
+        money: 200,
+        talents: [],
+        trappings: []
+      },
+      {
+        name: "Exterminator",
+        advance: ["S"],
         skills: [],
         money: 300,
-        talents: [],
-        trappings: []
-      },
-      {
-        name: "",
-        advance: [""],
-        skills: [],
-        money: 0,
-        talents: [],
-        trappings: []
-      },
-      {
-        name: "",
-        advance: [""],
-        skills: [],
-        money: 0,
         talents: [],
         trappings: []
       }
@@ -538,37 +536,37 @@ export const careerList = [
   {
     id: 15,
     name: "Townsman",
-    advance: [["", "", ""], [""], [""], [""]],
+    advance: [["Agi", "Int", "Fel"], [""], [""], [""]],
     paths: [
       {
-        name: "",
-        advance: [],
+        name: "Clerk",
+        advance: ["Agi", "Int", "Fel"],
         skills: [],
-        money: 4,
+        money: 100,
         talents: [],
         trappings: []
       },
       {
-        name: "",
-        advance: [""],
+        name: "Townsman",
+        advance: ["I"],
         skills: [],
-        money: 300,
+        money: 200,
         talents: [],
         trappings: []
       },
       {
-        name: "",
-        advance: [""],
+        name: "Town Councillor",
+        advance: ["Dex"],
         skills: [],
-        money: 0,
+        money: 500,
         talents: [],
         trappings: []
       },
       {
-        name: "",
-        advance: [""],
+        name: "Burgomeister",
+        advance: ["WP"],
         skills: [],
-        money: 0,
+        money: 1000,
         talents: [],
         trappings: []
       }
@@ -577,37 +575,37 @@ export const careerList = [
   {
     id: 16,
     name: "Watchman",
-    advance: [["", "", ""], [""], [""], [""]],
+    advance: [["WS", "S", "Fel"], [""], [""], [""]],
     paths: [
       {
-        name: "",
-        advance: [],
+        name: "Watchman Recruit",
+        advance: ["WS", "S", "Fel"],
         skills: [],
-        money: 4,
+        money: 3,
         talents: [],
         trappings: []
       },
       {
-        name: "",
-        advance: [""],
+        name: "Watchman",
+        advance: ["WP"],
+        skills: [],
+        money: 100,
+        talents: [],
+        trappings: []
+      },
+      {
+        name: "Watchman Seargent",
+        advance: ["I"],
         skills: [],
         money: 300,
         talents: [],
         trappings: []
       },
       {
-        name: "",
-        advance: [""],
+        name: "Watch Captain",
+        advance: ["int"],
         skills: [],
-        money: 0,
-        talents: [],
-        trappings: []
-      },
-      {
-        name: "",
-        advance: [""],
-        skills: [],
-        money: 0,
+        money: 1000,
         talents: [],
         trappings: []
       }
@@ -616,37 +614,36 @@ export const careerList = [
   {
     id: 17,
     name: "Advisor",
-    advance: [["", "", ""], [""], [""], [""]],
     paths: [
       {
-        name: "",
-        advance: [],
+        name: "Aide",
+        advance: ["T", "I", "Agi"],
         skills: [],
-        money: 4,
+        money: 200,
         talents: [],
         trappings: []
       },
       {
-        name: "",
-        advance: [""],
+        name: "Advisor",
+        advance: ["Fel"],
         skills: [],
-        money: 300,
+        money: 400,
         talents: [],
         trappings: []
       },
       {
-        name: "",
-        advance: [""],
+        name: "Counsellor",
+        advance: ["Int"],
         skills: [],
-        money: 0,
+        money: 1000,
         talents: [],
         trappings: []
       },
       {
-        name: "",
-        advance: [""],
+        name: "Chancellor",
+        advance: ["WP"],
         skills: [],
-        money: 0,
+        money: 3000,
         talents: [],
         trappings: []
       }
@@ -655,37 +652,36 @@ export const careerList = [
   {
     id: 18,
     name: "Artist",
-    advance: [["", "", ""], [""], [""], [""]],
     paths: [
       {
-        name: "",
-        advance: [],
+        name: "Apprentice Artist",
+        advance: ["S", "I", "Dex"],
         skills: [],
-        money: 4,
+        money: 100,
         talents: [],
         trappings: []
       },
       {
-        name: "",
-        advance: [""],
+        name: "Artist",
+        advance: ["Fel"],
         skills: [],
         money: 300,
         talents: [],
         trappings: []
       },
       {
-        name: "",
-        advance: [""],
+        name: "Master Artist",
+        advance: ["WP"],
         skills: [],
-        money: 0,
+        money: 500,
         talents: [],
         trappings: []
       },
       {
-        name: "",
-        advance: [""],
+        name: "Maestro",
+        advance: ["Int"],
         skills: [],
-        money: 0,
+        money: 2000,
         talents: [],
         trappings: []
       }
@@ -694,37 +690,37 @@ export const careerList = [
   {
     id: 19,
     name: "Duellist",
-    advance: [["", "", ""], [""], [""], [""]],
+    advance: [["WS", "I", "Agi"], [""], [""], [""]],
     paths: [
       {
-        name: "",
-        advance: [],
-        skills: [],
-        money: 4,
-        talents: [],
-        trappings: []
-      },
-      {
-        name: "",
-        advance: [""],
+        name: "Fencer",
+        advance: ["WS", "I", "Agi"],
         skills: [],
         money: 300,
         talents: [],
         trappings: []
       },
       {
-        name: "",
-        advance: [""],
+        name: "Duellist",
+        advance: ["BS"],
         skills: [],
-        money: 0,
+        money: 500,
         talents: [],
         trappings: []
       },
       {
-        name: "",
-        advance: [""],
+        name: "Duelmaster",
+        advance: ["S"],
         skills: [],
-        money: 0,
+        money: 1000,
+        talents: [],
+        trappings: []
+      },
+      {
+        name: "Judicial Champion",
+        advance: ["WP"],
+        skills: [],
+        money: 3000,
         talents: [],
         trappings: []
       }
@@ -733,37 +729,36 @@ export const careerList = [
   {
     id: 20,
     name: "Envoy",
-    advance: [["", "", ""], [""], [""], [""]],
     paths: [
       {
-        name: "",
-        advance: [],
+        name: "Herald",
+        advance: ["T", "I", "Fel"],
         skills: [],
-        money: 4,
+        money: 200,
         talents: [],
         trappings: []
       },
       {
-        name: "",
-        advance: [""],
+        name: "Envoy",
+        advance: ["Int"],
         skills: [],
-        money: 300,
+        money: 400,
         talents: [],
         trappings: []
       },
       {
-        name: "",
-        advance: [""],
+        name: "Diplomat",
+        advance: ["I"],
         skills: [],
-        money: 0,
+        money: 2000,
         talents: [],
         trappings: []
       },
       {
-        name: "",
-        advance: [""],
+        name: "Ambassador",
+        advance: ["WP"],
         skills: [],
-        money: 0,
+        money: 5000,
         talents: [],
         trappings: []
       }
@@ -772,37 +767,36 @@ export const careerList = [
   {
     id: 21,
     name: "Noble",
-    advance: [["", "", ""], [""], [""], [""]],
     paths: [
       {
-        name: "",
-        advance: [],
+        name: "Scion",
+        advance: ["WS", "I", "Dex"],
         skills: [],
-        money: 4,
+        money: 1000,
         talents: [],
         trappings: []
       },
       {
-        name: "",
-        advance: [""],
+        name: "Noble",
+        advance: ["Fel"],
         skills: [],
-        money: 300,
+        money: 3000,
         talents: [],
         trappings: []
       },
       {
-        name: "",
-        advance: [""],
+        name: "Magnate",
+        advance: ["Int"],
         skills: [],
-        money: 0,
+        money: 5000,
         talents: [],
         trappings: []
       },
       {
-        name: "",
-        advance: [""],
+        name: "Noble Lord",
+        advance: ["WP"],
         skills: [],
-        money: 0,
+        money: 7000,
         talents: [],
         trappings: []
       }
@@ -811,37 +805,36 @@ export const careerList = [
   {
     id: 22,
     name: "Servant",
-    advance: [["", "", ""], [""], [""], [""]],
     paths: [
       {
-        name: "",
-        advance: [],
+        name: "Menial",
+        advance: ["S", "T", "Agi"],
         skills: [],
-        money: 4,
+        money: 100,
         talents: [],
         trappings: []
       },
       {
-        name: "",
-        advance: [""],
+        name: "Servant",
+        advance: ["I"],
         skills: [],
         money: 300,
         talents: [],
         trappings: []
       },
       {
-        name: "",
-        advance: [""],
+        name: "Attendant",
+        advance: ["Int"],
         skills: [],
-        money: 0,
+        money: 500,
         talents: [],
         trappings: []
       },
       {
-        name: "",
-        advance: [""],
+        name: "Steward",
+        advance: ["Fel"],
         skills: [],
-        money: 0,
+        money: 1000,
         talents: [],
         trappings: []
       }
@@ -850,37 +843,36 @@ export const careerList = [
   {
     id: 23,
     name: "Spy",
-    advance: [["", "", ""], [""], [""], [""]],
     paths: [
       {
-        name: "",
-        advance: [],
+        name: "informer",
+        advance: ["Agi", "WP", "Fel"],
         skills: [],
-        money: 4,
+        money: 3,
         talents: [],
         trappings: []
       },
       {
-        name: "",
-        advance: [""],
+        name: "Spy",
+        advance: ["WS"],
         skills: [],
         money: 300,
         talents: [],
         trappings: []
       },
       {
-        name: "",
-        advance: [""],
+        name: "Agent",
+        advance: ["I"],
         skills: [],
-        money: 0,
+        money: 1000,
         talents: [],
         trappings: []
       },
       {
-        name: "",
-        advance: [""],
+        name: "Spymaster",
+        advance: ["Int"],
         skills: [],
-        money: 0,
+        money: 4000,
         talents: [],
         trappings: []
       }
@@ -889,37 +881,36 @@ export const careerList = [
   {
     id: 24,
     name: "Warden",
-    advance: [["", "", ""], [""], [""], [""]],
     paths: [
       {
-        name: "",
-        advance: [],
+        name: "Custodian",
+        advance: ["S", "T", "WP"],
         skills: [],
-        money: 4,
+        money: 100,
         talents: [],
         trappings: []
       },
       {
-        name: "",
-        advance: [""],
+        name: "Warden",
+        advance: ["WS"],
         skills: [],
         money: 300,
         talents: [],
         trappings: []
       },
       {
-        name: "",
-        advance: [""],
+        name: "Seneschal",
+        advance: ["Fel"],
         skills: [],
-        money: 0,
+        money: 1000,
         talents: [],
         trappings: []
       },
       {
-        name: "",
-        advance: [""],
+        name: "Governor",
+        advance: ["Int"],
         skills: [],
-        money: 0,
+        money: 3000,
         talents: [],
         trappings: []
       }
