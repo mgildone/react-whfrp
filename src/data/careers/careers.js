@@ -1465,78 +1465,98 @@ export const careerList = [
   {
     id: 39,
     name: "Roadwarden",
-    advance: [["", "", ""], [""], [""], [""]],
     paths: [
       {
-        name: "",
-        advance: [],
+        name: "Toll Keeper",
+        advance: ["BS", "T", "I"],
         skills: [],
-        money: 4,
+        money: 5,
         talents: [],
-        trappings: []
+        trappings: ["Crossbow with 10 Bolts", "Leather Jack"]
       },
       {
-        name: "",
-        advance: [""],
+        name: "Road Warden",
+        advance: ["WS"],
         skills: [],
-        money: 300,
+        money: 200,
         talents: [],
-        trappings: []
+        trappings: [
+          "Hand Weapon",
+          "Mail Shirt",
+          "Riding Horse with Saddle and Harness",
+          "Rope"
+        ]
       },
       {
-        name: "",
-        advance: [""],
+        name: "Road Sergeant",
+        advance: ["Fel"],
         skills: [],
-        money: 0,
+        money: 400,
         talents: [],
-        trappings: []
+        trappings: [
+          "Squad of Road Wardens",
+          "Pistol with 10 Shots",
+          "Shield",
+          "Symbol of Rank"
+        ]
       },
       {
-        name: "",
-        advance: [""],
+        name: "Road Captain",
+        advance: ["Int"],
         skills: [],
-        money: 0,
+        money: 1000,
         talents: [],
-        trappings: []
+        trappings: [
+          "Light Warhorse",
+          "Pistol with 10 Shots",
+          "Quality Hat and Cloak",
+          "Unit of Road Wardens"
+        ]
       }
     ]
   },
   {
     id: 40,
     name: "Witch Hunter",
-    advance: [["", "", ""], [""], [""], [""]],
     paths: [
       {
-        name: "",
-        advance: [],
+        name: "Interrogator",
+        advance: ["WS", "T", "WP"],
         skills: [],
-        money: 4,
+        money: 100,
         talents: [],
-        trappings: []
+        trappings: ["Hand Weapon", "Instruments of Torture"]
       },
       {
-        name: "",
-        advance: [""],
+        name: "Witch Hunter",
+        advance: ["BS"],
         skills: [],
         money: 300,
         talents: [],
-        trappings: []
+        trappings: [
+          "Crossbow Pistol or Pistol",
+          "Hat (Henin)",
+          "Leather Jack",
+          "Riding Horse with Saddle and Tack",
+          "Rope",
+          "Silvered Sword"
+        ]
       },
       {
-        name: "",
-        advance: [""],
+        name: "Inquisitor",
+        advance: ["Fel"],
+        skills: [],
+        money: 500,
+        talents: [],
+        trappings: ["Quality Clothing", "Subordinate Interrogators"]
+      },
+      {
+        name: "Witchfinder General",
+        advance: ["Int"],
         skills: [],
         money: 0,
         talents: [],
-        trappings: []
-      },
-      {
-        name: "",
-        advance: [""],
-        skills: [],
-        money: 0,
-        talents: [],
-        trappings: []
+        trappings: ["Best Quality Courtly Garb", "Subordinate Witch Hunters"]
       }
     ]
   },
