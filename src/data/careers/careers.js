@@ -1563,936 +1563,1023 @@ export const careerList = [
   {
     id: 41,
     name: "Boatman",
-    advance: [["", "", ""], [""], [""], [""]],
     paths: [
       {
-        name: "",
-        advance: [],
+        name: "Boat-hand",
+        advance: ["S", "T", "Agi"],
         skills: [],
-        money: 4,
+        money: 100,
         talents: [],
-        trappings: []
+        trappings: ["Hand Weapon (Boat Hook)", "Leather Jack", "Pole"]
       },
       {
-        name: "",
-        advance: [""],
+        name: "Boatman",
+        advance: ["I"],
+        skills: [],
+        money: 200,
+        talents: [],
+        trappings: ["Rope", "Rowboat"]
+      },
+      {
+        name: "Bargeswain",
+        advance: ["Dex"],
         skills: [],
         money: 300,
         talents: [],
-        trappings: []
+        trappings: ["Backpack", "Trade Tools (Carpenter)"]
       },
       {
-        name: "",
-        advance: [""],
+        name: "Barge Master",
+        advance: ["Int"],
         skills: [],
-        money: 0,
+        money: 500,
         talents: [],
-        trappings: []
-      },
-      {
-        name: "",
-        advance: [""],
-        skills: [],
-        money: 0,
-        talents: [],
-        trappings: []
+        trappings: ["Hat", "Riverboat and Crew"]
       }
     ]
   },
   {
     id: 42,
     name: "Huffer",
-    advance: [["", "", ""], [""], [""], [""]],
     paths: [
       {
-        name: "",
-        advance: [],
+        name: "Riverguide",
+        advance: ["WS", "T", "I"],
         skills: [],
         money: 4,
         talents: [],
-        trappings: []
+        trappings: ["Hand Weapon (Boat Hook)", "Storm Lantern and Oil"]
       },
       {
-        name: "",
-        advance: [""],
+        name: "Huffer",
+        advance: ["WP"],
+        skills: [],
+        money: 100,
+        talents: [],
+        trappings: ["Leather Jerkin", "Rope", "Row Boat"]
+      },
+      {
+        name: "Pilot",
+        advance: ["Int"],
         skills: [],
         money: 300,
         talents: [],
-        trappings: []
+        trappings: ["Pole", "Storm Lantern and Oil"]
       },
       {
-        name: "",
-        advance: [""],
+        name: "Master Pilot",
+        advance: ["Fel"],
         skills: [],
-        money: 0,
+        money: 500,
         talents: [],
-        trappings: []
-      },
-      {
-        name: "",
-        advance: [""],
-        skills: [],
-        money: 0,
-        talents: [],
-        trappings: []
+        trappings: ["Boathand", "Small Riverboat"]
       }
     ]
   },
   {
     id: 43,
     name: "Riverwarden",
-    advance: [["", "", ""], [""], [""], [""]],
     paths: [
       {
-        name: "",
-        advance: [],
+        name: "River Recruit ",
+        advance: ["BS", "S", "Fel"],
         skills: [],
-        money: 4,
+        money: 100,
         talents: [],
-        trappings: []
+        trappings: ["Hand Weapon (Sword)", "Leather Jack", "Uniform"]
       },
       {
-        name: "",
-        advance: [""],
+        name: "Riverwarden",
+        advance: ["WS"],
         skills: [],
-        money: 300,
+        money: 200,
         talents: [],
-        trappings: []
+        trappings: ["Lantern and Oil", "Pistol with 10 shot", "Shield"]
       },
       {
-        name: "",
-        advance: [""],
+        name: "Shipsword",
+        advance: ["I"],
         skills: [],
-        money: 0,
+        money: 400,
         talents: [],
-        trappings: []
+        trappings: ["Grappling Hook", "Helmet", "Mail Shirt"]
       },
       {
-        name: "",
-        advance: [""],
+        name: "Shipsword Master",
+        advance: ["Int"],
         skills: [],
-        money: 0,
+        money: 1000,
         talents: [],
-        trappings: []
+        trappings: ["Patrol Boats and Crew", "Symbol of Rank"]
       }
     ]
   },
   {
     id: 44,
     name: "Riverwoman",
-    advance: [["", "", ""], [""], [""], [""]],
     paths: [
       {
-        name: "",
-        advance: [],
+        name: "Greenfish",
+        advance: ["T", "Agi", "Dex"],
         skills: [],
-        money: 4,
+        money: 2,
         talents: [],
-        trappings: []
+        trappings: ["Bucket", "Fishing Rod and Bait", "Leather Leggings"]
       },
       {
-        name: "",
-        advance: [""],
+        name: "Riverwoman",
+        advance: ["WS"],
         skills: [],
-        money: 300,
+        money: 3,
         talents: [],
-        trappings: []
+        trappings: ["Eel Trap", "Leather Jerkin", "Net", "Spear"]
       },
       {
-        name: "",
-        advance: [""],
+        name: "Riverwise",
+        advance: ["I"],
         skills: [],
-        money: 0,
+        money: 5,
         talents: [],
-        trappings: []
+        trappings: ["Row Boat", "Storm Lantern and Oil"]
       },
       {
-        name: "",
-        advance: [""],
+        name: "River Elder",
+        advance: ["Fel"],
         skills: [],
-        money: 0,
+        money: 200,
         talents: [],
-        trappings: []
+        trappings: ["Hut or Riverboat"]
       }
     ]
   },
   {
     id: 45,
     name: "Seaman",
-    advance: [["", "", ""], [""], [""], [""]],
     paths: [
       {
-        name: "",
-        advance: [],
+        name: "Landsman",
+        advance: ["Agi", "Dex", "Fel"],
         skills: [],
-        money: 4,
+        money: 100,
         talents: [],
-        trappings: []
+        trappings: ["Bucket", "Brush", "Mop"]
       },
       {
-        name: "",
-        advance: [""],
+        name: "Seaman",
+        advance: ["WS"],
         skills: [],
         money: 300,
         talents: [],
-        trappings: []
+        trappings: ["Hand Weapon (Boat Hook)", "Leather Jerkin"]
       },
       {
-        name: "",
-        advance: [""],
+        name: "Boatswain",
+        advance: ["I"],
         skills: [],
-        money: 0,
+        money: 500,
         talents: [],
-        trappings: []
+        trappings: ["Trade Tools (Carpenter)"]
       },
       {
-        name: "",
-        advance: [""],
+        name: "Ship’s Master",
+        advance: ["Int"],
         skills: [],
-        money: 0,
+        money: 2000,
         talents: [],
-        trappings: []
+        trappings: [
+          "Shipping Charts",
+          "Sailing Ship and Crew",
+          "Sextant",
+          "Spyglass"
+        ]
       }
     ]
   },
   {
     id: 46,
     name: "Smuggler",
-    advance: [["", "", ""], [""], [""], [""]],
     paths: [
       {
-        name: "",
-        advance: [],
+        name: "River Runner",
+        advance: ["Agi", "Dex", "WP"],
         skills: [],
-        money: 4,
+        money: 2,
         talents: [],
-        trappings: []
+        trappings: [
+          "Large Sack",
+          "Mask or Scarves",
+          "Tinderbox",
+          "Storm Lantern and Oil"
+        ]
       },
       {
-        name: "",
-        advance: [""],
+        name: "Smuggler",
+        advance: ["I"],
         skills: [],
-        money: 300,
+        money: 3,
         talents: [],
-        trappings: []
+        trappings: ["2 Barrels", "Hand Weapon", "Leather Jack", "Row Boat"]
       },
       {
-        name: "",
-        advance: [""],
+        name: "Master Smuggler",
+        advance: ["Int"],
         skills: [],
-        money: 0,
+        money: 5,
         talents: [],
-        trappings: []
+        trappings: ["River Runner", "Speedy Riverboat"]
       },
       {
-        name: "",
-        advance: [""],
+        name: "Smuggler King",
+        advance: ["Fel"],
         skills: [],
-        money: 0,
+        money: 200,
         talents: [],
-        trappings: []
+        trappings: ["Disguise Kit", "Small Fleet of Riverboats"]
       }
     ]
   },
   {
     id: 47,
     name: "Stevedore",
-    advance: [["", "", ""], [""], [""], [""]],
     paths: [
       {
-        name: "",
-        advance: [],
+        name: "Dockhand",
+        advance: ["WS", "T", "I"],
         skills: [],
-        money: 4,
+        money: 3,
         talents: [],
-        trappings: []
+        trappings: ["Hand Weapon (Boat Hook)", "Leather Gloves"]
       },
       {
-        name: "",
-        advance: [""],
+        name: "Stevedore",
+        advance: ["S"],
+        skills: [],
+        money: 100,
+        talents: [],
+        trappings: [
+          "Guild Licence",
+          "Leather Jerkin",
+          "Pipe and Tobacco",
+          "Porter Cap"
+        ]
+      },
+      {
+        name: "Foreman",
+        advance: ["WP"],
         skills: [],
         money: 300,
         talents: [],
-        trappings: []
+        trappings: ["Gang of Stevedores", "Whistle"]
       },
       {
-        name: "",
-        advance: [""],
+        name: "Dock Master",
+        advance: ["Int"],
         skills: [],
-        money: 0,
+        money: 500,
         talents: [],
-        trappings: []
-      },
-      {
-        name: "",
-        advance: [""],
-        skills: [],
-        money: 0,
-        talents: [],
-        trappings: []
+        trappings: ["Office and Staff", "Writing Kit"]
       }
     ]
   },
   {
     id: 48,
     name: "Wrecker",
-    advance: [["", "", ""], [""], [""], [""]],
     paths: [
       {
-        name: "",
-        advance: [],
+        name: "Cargo Scavenger",
+        advance: ["WS", "S", "I"],
         skills: [],
-        money: 4,
+        money: 2,
         talents: [],
-        trappings: []
+        trappings: ["Crowbar", "Large Sack", "Leather Gloves"]
       },
       {
-        name: "",
-        advance: [""],
+        name: "Wrecker",
+        advance: ["WP"],
         skills: [],
-        money: 300,
+        money: 3,
         talents: [],
-        trappings: []
+        trappings: [
+          "Hand Weapon (Boat Hook)",
+          "Leather Jack",
+          "Storm Lantern and Oil"
+        ]
       },
       {
-        name: "",
-        advance: [""],
+        name: "River Pirate",
+        advance: ["BS"],
         skills: [],
-        money: 0,
+        money: 5,
         talents: [],
-        trappings: []
+        trappings: [
+          "Crossbow with 10 Bolts",
+          "Grappling Hook and Rope",
+          "Riverboat"
+        ]
       },
       {
-        name: "",
-        advance: [""],
+        name: "Wrecker Captain",
+        advance: ["Fel"],
         skills: [],
-        money: 0,
+        money: 200,
         talents: [],
-        trappings: []
+        trappings: [
+          "Fleet of Riverboats and Wrecker Crew",
+          "Keg of Ale",
+          "Manacles"
+        ]
       }
     ]
   },
   {
     id: 49,
     name: "Bawd",
-    advance: [["", "", ""], [""], [""], [""]],
     paths: [
       {
-        name: "",
-        advance: [],
+        name: "Hustler",
+        advance: ["Agi", "Dex", "Fel"],
         skills: [],
-        money: 4,
+        money: 1,
         talents: [],
-        trappings: []
+        trappings: ["Flask of Spirits"]
       },
       {
-        name: "",
-        advance: [""],
+        name: "Bawd",
+        advance: ["I"],
+        skills: [],
+        money: 3,
+        talents: [],
+        trappings: ["Dose of Weirdroot", "Quality Clothing"]
+      },
+      {
+        name: "Procurer",
+        advance: ["WP"],
+        skills: [],
+        money: 100,
+        talents: [],
+        trappings: ["A Ring of Hustlers"]
+      },
+      {
+        name: "Ringleader",
+        advance: ["Int"],
         skills: [],
         money: 300,
         talents: [],
-        trappings: []
-      },
-      {
-        name: "",
-        advance: [""],
-        skills: [],
-        money: 0,
-        talents: [],
-        trappings: []
-      },
-      {
-        name: "",
-        advance: [""],
-        skills: [],
-        money: 0,
-        talents: [],
-        trappings: []
+        trappings: ["Townhouse with Discreet Back Entrance", "A Ring of Bawds"]
       }
     ]
   },
   {
     id: 50,
     name: "Charlatan",
-    advance: [["", "", ""], [""], [""], [""]],
     paths: [
       {
-        name: "",
-        advance: [],
+        name: "Swindler",
+        advance: ["I", "Dex", "Fel"],
         skills: [],
-        money: 4,
+        money: 3,
         talents: [],
-        trappings: []
+        trappings: ["Backpack", "2 Sets of Clothing", "Deck of Cards", "Dice"]
       },
       {
-        name: "",
-        advance: [""],
+        name: "Charlatan",
+        advance: ["WP"],
         skills: [],
-        money: 300,
+        money: 5,
         talents: [],
-        trappings: []
+        trappings: [
+          "1 Forged Document",
+          "2 Sets of Quality Clothing",
+          "Selection of Coloured Powders and Water",
+          "Selection of Trinkets and Charms"
+        ]
       },
       {
-        name: "",
-        advance: [""],
+        name: "Con Artist",
+        advance: ["Agi"],
         skills: [],
-        money: 0,
+        money: 200,
         talents: [],
-        trappings: []
+        trappings: ["Disguise Kit", "Lock Picks", "Multiple Forged Documents"]
       },
       {
-        name: "",
-        advance: [""],
+        name: "Scoundrel",
+        advance: ["Int"],
         skills: [],
-        money: 0,
+        money: 400,
         talents: [],
-        trappings: []
+        trappings: ["Forged Seal", "Writing Kit"]
       }
     ]
   },
   {
     id: 51,
     name: "Fence",
-    advance: [["", "", ""], [""], [""], [""]],
     paths: [
       {
-        name: "",
-        advance: [],
+        name: "Broker",
+        advance: ["I", "Agi", "Fel"],
         skills: [],
-        money: 4,
+        money: 100,
         talents: [],
-        trappings: []
+        trappings: ["Hand Weapon", "Stolen Goods worth 3d10 Shillings"]
       },
       {
-        name: "",
-        advance: [""],
+        name: "Fence",
+        advance: ["Dex"],
+        skills: [],
+        money: 200,
+        talents: [],
+        trappings: ["Eye-glass", "Trade Tools (Engraver)", "Writing Kit"]
+      },
+      {
+        name: "Master Fence",
+        advance: ["Int"],
         skills: [],
         money: 300,
         talents: [],
-        trappings: []
+        trappings: ["Pawnbroker’s Shop"]
       },
       {
-        name: "",
-        advance: [""],
+        name: "Black Marketeer",
+        advance: ["WP"],
         skills: [],
         money: 0,
         talents: [],
-        trappings: []
-      },
-      {
-        name: "",
-        advance: [""],
-        skills: [],
-        money: 0,
-        talents: [],
-        trappings: []
+        trappings: ["Hired Muscle", "Network of Informants", "Warehouse"]
       }
     ]
   },
   {
     id: 52,
     name: "Grave Robber",
-    advance: [["", "", ""], [""], [""], [""]],
     paths: [
       {
-        name: "",
-        advance: [],
+        name: "Body Snatcher",
+        advance: ["S", "I", "WP"],
         skills: [],
-        money: 4,
+        money: 2,
         talents: [],
-        trappings: []
+        trappings: ["Crowbar", "Handcart", "Hooded Cloak", "Tarpaulin"]
       },
       {
-        name: "",
-        advance: [""],
+        name: "Grave Robber",
+        advance: ["WS"],
         skills: [],
-        money: 300,
+        money: 3,
         talents: [],
-        trappings: []
+        trappings: ["Backpack", "Hand Weapon", "Spade", "Storm Lantern and Oil"]
       },
       {
-        name: "",
-        advance: [""],
+        name: "Tomb Robber",
+        advance: ["Dex"],
         skills: [],
-        money: 0,
+        money: 100,
         talents: [],
-        trappings: []
+        trappings: [
+          "Hand Weapon (Pick)",
+          "Horse and Cart",
+          "Leather Jack",
+          "Rope",
+          "Trade Tools ( ief )"
+        ]
       },
       {
-        name: "",
-        advance: [""],
+        name: "Treasure Hunter",
+        advance: ["Int"],
         skills: [],
-        money: 0,
+        money: 500,
         talents: [],
-        trappings: []
+        trappings: [
+          "Bedroll",
+          "Maps",
+          "Tent",
+          "Trade Tools (Engineer)",
+          "Writing Kit"
+        ]
       }
     ]
   },
   {
     id: 53,
     name: "Outlaw",
-    advance: [["", "", ""], [""], [""], [""]],
     paths: [
       {
-        name: "",
-        advance: [],
+        name: "Brigand",
+        advance: ["WS", "S", "T"],
+        skills: [],
+        money: 1,
+        talents: [],
+        trappings: ["Bedroll", "Hand Weapon", "Leather Jerkin", "Tinderbox"]
+      },
+      {
+        name: "Outlaw",
+        advance: ["BS"],
+        skills: [],
+        money: 2,
+        talents: [],
+        trappings: ["Bow with 10 Arrows", "Shield", "Tent"]
+      },
+      {
+        name: "Outlaw Chief",
+        advance: ["I"],
         skills: [],
         money: 4,
         talents: [],
-        trappings: []
+        trappings: [
+          "Helmet",
+          "Riding Horse with Saddle and Tack",
+          "Sleeved Mail Shirt",
+          "Band of Outlaws"
+        ]
       },
       {
-        name: "",
-        advance: [""],
+        name: "Bandit King",
+        advance: ["Fel"],
         skills: [],
-        money: 300,
+        money: 200,
         talents: [],
-        trappings: []
-      },
-      {
-        name: "",
-        advance: [""],
-        skills: [],
-        money: 0,
-        talents: [],
-        trappings: []
-      },
-      {
-        name: "",
-        advance: [""],
-        skills: [],
-        money: 0,
-        talents: [],
-        trappings: []
+        trappings: ["Fiefdom’ of Outlaw Chiefs", "Lair"]
       }
     ]
   },
   {
     id: 54,
     name: "Racketeer",
-    advance: [["", "", ""], [""], [""], [""]],
     paths: [
       {
-        name: "",
-        advance: [],
+        name: "Thug",
+        advance: ["WS", "S", "T"],
         skills: [],
-        money: 4,
+        money: 3,
         talents: [],
-        trappings: []
+        trappings: ["Knuckledusters", "LeatherJack"]
       },
       {
-        name: "",
-        advance: [""],
+        name: "Racketeer",
+        advance: ["Fel"],
+        skills: [],
+        money: 5,
+        talents: [],
+        trappings: ["Hand Weapon", "Hat", "Mail Shirt"]
+      },
+      {
+        name: "Gang Boss",
+        advance: ["WP"],
         skills: [],
         money: 300,
         talents: [],
-        trappings: []
+        trappings: [
+          "Crossbow Pistol with 10 Bolts",
+          "Gang of  Thugs and Racketeers",
+          "Lair"
+        ]
       },
       {
-        name: "",
-        advance: [""],
+        name: "Crime Lord",
+        advance: ["Int"],
         skills: [],
-        money: 0,
+        money: 500,
         talents: [],
-        trappings: []
-      },
-      {
-        name: "",
-        advance: [""],
-        skills: [],
-        money: 0,
-        talents: [],
-        trappings: []
+        trappings: [
+          "Network of Informers",
+          "Quality Clothing and Hat",
+          "Subordinate Gang Bosses"
+        ]
       }
     ]
   },
   {
     id: 55,
     name: "Thief",
-    advance: [["", "", ""], [""], [""], [""]],
     paths: [
       {
-        name: "",
-        advance: [],
+        name: "Prowler",
+        advance: ["I", "Agi", "WP"],
         skills: [],
-        money: 4,
+        money: 1,
         talents: [],
-        trappings: []
+        trappings: ["Crowbar", "Leather Jerkin", "Sack"]
       },
       {
-        name: "",
-        advance: [""],
+        name: "Thief",
+        advance: ["Dex"],
+        skills: [],
+        money: 3,
+        talents: [],
+        trappings: ["Trade Tools ( Thief )", "Rope"]
+      },
+      {
+        name: "Master  Thief",
+        advance: ["S"],
+        skills: [],
+        money: 5,
+        talents: [],
+        trappings: ["Crossbow Pistol with 10 Bolts"]
+      },
+      {
+        name: "Cat Burglar",
+        advance: ["Fel"],
         skills: [],
         money: 300,
         talents: [],
-        trappings: []
-      },
-      {
-        name: "",
-        advance: [""],
-        skills: [],
-        money: 0,
-        talents: [],
-        trappings: []
-      },
-      {
-        name: "",
-        advance: [""],
-        skills: [],
-        money: 0,
-        talents: [],
-        trappings: []
+        trappings: ["Dark Clothing", "Grappling Hook", "Mask or Scarves"]
       }
     ]
   },
   {
     id: 56,
     name: "Witch",
-    advance: [["", "", ""], [""], [""], [""]],
     paths: [
       {
-        name: "",
-        advance: [],
+        name: "Hexer",
+        advance: ["WS", "T", "WP"],
         skills: [],
-        money: 4,
+        money: 1,
         talents: [],
-        trappings: []
+        trappings: ["Candles", "Chalk", "Doll", "Pins"]
       },
       {
-        name: "",
-        advance: [""],
+        name: "Witch",
+        advance: ["I"],
         skills: [],
-        money: 300,
+        money: 2,
         talents: [],
-        trappings: []
+        trappings: [
+          "Quarterstaff",
+          "Sack",
+          "Selection of Herbs",
+          "Trade Tools (Herbalist)"
+        ]
       },
       {
-        name: "",
-        advance: [""],
+        name: "Wyrd",
+        advance: ["Fel"],
         skills: [],
-        money: 0,
+        money: 3,
         talents: [],
-        trappings: []
+        trappings: ["Backpack", "Cloak with Several Pockets", "Lucky Charm"]
       },
       {
-        name: "",
-        advance: [""],
+        name: "Warlock",
+        advance: ["Int"],
         skills: [],
-        money: 0,
+        money: 5,
         talents: [],
-        trappings: []
+        trappings: ["Robes", "Skull"]
       }
     ]
   },
   {
     id: 57,
     name: "Cavalryman",
-    advance: [["", "", ""], [""], [""], [""]],
     paths: [
       {
-        name: "",
-        advance: [],
+        name: "Horseman",
+        advance: ["WS", "S", "Agi"],
         skills: [],
-        money: 4,
+        money: 200,
         talents: [],
-        trappings: []
+        trappings: ["Leather Jack", "Riding Horse with Saddle and Tack"]
       },
       {
-        name: "",
-        advance: [""],
+        name: "Cavalryman",
+        advance: ["BS"],
         skills: [],
-        money: 300,
+        money: 400,
         talents: [],
-        trappings: []
+        trappings: [
+          "Breastplate",
+          "Helmet",
+          "Light Warhorse with Saddle and Tack",
+          "Pistol with 10 Shots, Shield"
+        ]
       },
       {
-        name: "",
-        advance: [""],
+        name: "Cavalry Sergeant",
+        advance: ["I"],
         skills: [],
-        money: 0,
+        money: 1000,
         talents: [],
-        trappings: []
+        trappings: ["Sash"]
       },
       {
-        name: "",
-        advance: [""],
+        name: "Cavalry Officer",
+        advance: ["Fel"],
         skills: [],
-        money: 0,
+        money: 2000,
         talents: [],
-        trappings: []
+        trappings: ["Deck of Cards", "Quality Clothing"]
       }
     ]
   },
   {
     id: 58,
     name: "Guard",
-    advance: [["", "", ""], [""], [""], [""]],
     paths: [
       {
-        name: "",
-        advance: [],
+        name: "Sentry",
+        advance: ["WS", "T", "Agi"],
         skills: [],
-        money: 4,
+        money: 100,
         talents: [],
-        trappings: []
+        trappings: ["Buckler", "Leather Jerkin", "Storm Lantern with Oil"]
       },
       {
-        name: "",
-        advance: [""],
+        name: "Guard",
+        advance: ["I"],
+        skills: [],
+        money: 200,
+        talents: [],
+        trappings: [
+          "Bow with 10 Arrows",
+          "Sleeved Mail Shirt",
+          "Shield",
+          "Spear"
+        ]
+      },
+      {
+        name: "Honour Guard",
+        advance: ["S"],
         skills: [],
         money: 300,
         talents: [],
-        trappings: []
+        trappings: ["Great Weapon or Halberd", "Helmet", "Uniform"]
       },
       {
-        name: "",
-        advance: [""],
+        name: "Guard Officer",
+        advance: ["Int"],
         skills: [],
-        money: 0,
+        money: 500,
         talents: [],
-        trappings: []
-      },
-      {
-        name: "",
-        advance: [""],
-        skills: [],
-        money: 0,
-        talents: [],
-        trappings: []
+        trappings: ["Breastplate"]
       }
     ]
   },
   {
     id: 59,
     name: "Knight",
-    advance: [["", "", ""], [""], [""], [""]],
     paths: [
       {
-        name: "",
-        advance: [],
-        skills: [],
-        money: 4,
-        talents: [],
-        trappings: []
-      },
-      {
-        name: "",
-        advance: [""],
+        name: "Squire",
+        advance: ["S", "I", "Agi"],
         skills: [],
         money: 300,
         talents: [],
-        trappings: []
+        trappings: [
+          "Leather Jack",
+          "Mail Shirt",
+          "Riding Horse with Saddle and Tack",
+          "Shield",
+          "Trade Tools (Farrier)"
+        ]
       },
       {
-        name: "",
-        advance: [""],
+        name: "Knight",
+        advance: ["WS"],
         skills: [],
-        money: 0,
+        money: 500,
         talents: [],
-        trappings: []
+        trappings: [
+          "Destrier with Saddle and Tack",
+          "Melee Weapon (Any)",
+          "Lance",
+          "Plate Armour and Helm"
+        ]
       },
       {
-        name: "",
-        advance: [""],
+        name: "First Knight",
+        advance: ["WP"],
         skills: [],
-        money: 0,
+        money: 2000,
         talents: [],
-        trappings: []
+        trappings: ["Barding", "Small Unit of Knights"]
+      },
+      {
+        name: "Knight of the Inner Circle",
+        advance: ["Fel"],
+        skills: [],
+        money: 4000,
+        talents: [],
+        trappings: [
+          "Plumed Great Helm",
+          "Squire",
+          "Large Unit of Knights or Several Small Units of Knights"
+        ]
       }
     ]
   },
   {
     id: 60,
     name: "Pit Fighter",
-    advance: [["", "", ""], [""], [""], [""]],
     paths: [
       {
-        name: "",
-        advance: [],
+        name: "Pugilist",
+        advance: ["WS", "S", "T"],
         skills: [],
         money: 4,
         talents: [],
-        trappings: []
+        trappings: ["Bandages", "Knuckledusters", "Leather Jacket"]
       },
       {
-        name: "",
-        advance: [""],
+        name: "Pit Fighter",
+        advance: ["I"],
         skills: [],
-        money: 300,
+        money: 200,
         talents: [],
-        trappings: []
+        trappings: [
+          "Flail or Great Weapon",
+          "Hand Weapon",
+          "Net or Whip",
+          "Shield or Buckler"
+        ]
       },
       {
-        name: "",
-        advance: [""],
+        name: "Pit Champion",
+        advance: ["Agi"],
         skills: [],
-        money: 0,
+        money: 500,
         talents: [],
-        trappings: []
+        trappings: ["Breast Plate", "Helmet"]
       },
       {
-        name: "",
-        advance: [""],
+        name: "Pit Legend",
+        advance: ["Fel"],
         skills: [],
-        money: 0,
+        money: 2000,
         talents: [],
-        trappings: []
+        trappings: ["Quality Helmet"]
       }
     ]
   },
   {
     id: 61,
     name: "Protagonist",
-    advance: [["", "", ""], [""], [""], [""]],
     paths: [
       {
-        name: "",
-        advance: [],
+        name: "Braggart",
+        advance: ["WS", "T", "Agi"],
         skills: [],
-        money: 4,
+        money: 2,
         talents: [],
-        trappings: []
+        trappings: ["Hood or Mask", "Knuckledusters", "Leather Jack"]
       },
       {
-        name: "",
-        advance: [""],
+        name: "Protagonist",
+        advance: ["I"],
         skills: [],
-        money: 300,
+        money: 100,
         talents: [],
-        trappings: []
+        trappings: [
+          "Hand Weapon",
+          "Mail Shirt",
+          "Riding Horse with Saddle and Tack",
+          "Shield"
+        ]
       },
       {
-        name: "",
-        advance: [""],
+        name: "Hitman",
+        advance: ["BS"],
         skills: [],
-        money: 0,
+        money: 400,
         talents: [],
-        trappings: []
+        trappings: ["Cloak", "Garotte", "Poison", "Throwing Knives"]
       },
       {
-        name: "",
-        advance: [""],
+        name: "Assassin",
+        advance: ["Fel"],
         skills: [],
-        money: 0,
+        money: 1000,
         talents: [],
-        trappings: []
+        trappings: ["Crossbow with 10 shots", "Disguise Kit"]
       }
     ]
   },
   {
     id: 62,
     name: "Soldier",
-    advance: [["", "", ""], [""], [""], [""]],
     paths: [
       {
-        name: "",
-        advance: [],
+        name: "Recruit",
+        advance: ["WS", "T", "WP"],
         skills: [],
-        money: 4,
+        money: 100,
         talents: [],
-        trappings: []
+        trappings: ["Dagger", "Leather Breastplate", "Uniform"]
       },
       {
-        name: "",
-        advance: [""],
+        name: "Soldier",
+        advance: ["BS"],
         skills: [],
         money: 300,
         talents: [],
-        trappings: []
+        trappings: ["Breastplate", "Helmet", "Weapon (Any)"]
       },
       {
-        name: "",
-        advance: [""],
+        name: "Sergeant",
+        advance: ["I"],
         skills: [],
-        money: 0,
+        money: 500,
         talents: [],
-        trappings: []
+        trappings: ["Symbol of Rank", "Unit of Troops"]
       },
       {
-        name: "",
-        advance: [""],
+        name: "Officer",
+        advance: ["Fel"],
         skills: [],
-        money: 0,
+        money: 1000,
         talents: [],
-        trappings: []
+        trappings: [
+          "Letter of Commission",
+          "Light Warhorse with Saddle and Tack",
+          "Map",
+          "Orders",
+          "Unit of Soldiers",
+          "Quality Uniform",
+          "Symbol of Rank"
+        ]
       }
     ]
   },
   {
     id: 63,
-    name: "Troll Slayer",
-    advance: [["", "", ""], [""], [""], [""]],
+    name: "Slayer",
     paths: [
       {
-        name: "",
-        advance: [],
+        name: "Troll Slayer",
+        advance: ["WS", "S", "WP"],
         skills: [],
-        money: 4,
+        money: 2,
         talents: [],
-        trappings: []
+        trappings: ["Axe", "Flask of Spirits", "Shame", "Tattoos"]
       },
       {
-        name: "",
-        advance: [""],
+        name: "Giant Slayer",
+        advance: ["T"],
         skills: [],
-        money: 300,
+        money: 2,
         talents: [],
-        trappings: []
+        trappings: ["Great Axe", "Jewellery", "Troll’s Head"]
       },
       {
-        name: "",
-        advance: [""],
+        name: "Dragon Slayer",
+        advance: ["Agi"],
         skills: [],
-        money: 0,
+        money: 2,
         talents: [],
-        trappings: []
+        trappings: ["Giant’s Head", "Throwing Axes"]
       },
       {
-        name: "",
-        advance: [""],
+        name: "Daemon Slayer",
+        advance: ["I"],
         skills: [],
-        money: 0,
+        money: 2,
         talents: [],
-        trappings: []
+        trappings: ["Dragon’s Head"]
       }
     ]
   },
   {
     id: 64,
     name: "Warrior Priest",
-    advance: [["", "", ""], [""], [""], [""]],
     paths: [
       {
-        name: "",
-        advance: [],
+        name: "Novitiate",
+        advance: ["WS", "T", "WP"],
         skills: [],
-        money: 4,
+        money: 2,
         talents: [],
-        trappings: []
+        trappings: [
+          "Book (Religion)",
+          "Leather Jerkin",
+          "Religious Symbol",
+          "Robes",
+          "Weapon (Any Melee)"
+        ]
       },
       {
-        name: "",
-        advance: [""],
+        name: "Warrior Priest",
+        advance: ["S"],
+        skills: [],
+        money: 200,
+        talents: [],
+        trappings: ["Breastplate", "Weapon (Any)"]
+      },
+      {
+        name: "Priest Sergeant ",
+        advance: ["I"],
         skills: [],
         money: 300,
         talents: [],
-        trappings: []
+        trappings: ["Light Warhorse with Saddle and Tack"]
       },
       {
-        name: "",
-        advance: [""],
+        name: "Priest Captain",
+        advance: ["Fel"],
         skills: [],
-        money: 0,
+        money: 400,
         talents: [],
-        trappings: []
-      },
-      {
-        name: "",
-        advance: [""],
-        skills: [],
-        money: 0,
-        talents: [],
-        trappings: []
+        trappings: ["Religious Relic"]
       }
     ]
   }
