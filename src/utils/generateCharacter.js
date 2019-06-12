@@ -70,6 +70,17 @@ const getWounds = obj => {
   return Object.assign({}, obj, { wounds });
 };
 
+const getAge = obj => {
+  const ages = {
+    human: () => 15 + rollXd10(1),
+    dwarf: () => 15 + rollXd10(10),
+    halfling: () => 15 + rollXd10(5),
+    helf: () => 30 + rollXd10(10),
+    welf: () => 30 + rollXd10(10)
+  };
+  return Object.assign({}, obj, { age: ages[obj.race.id]() });
+};
+
 const generatCharacter = () => {
   return pipe(
     getGender,
@@ -81,11 +92,9 @@ const generatCharacter = () => {
     getCharacterStats,
     getAdvancedClass,
     getWounds,
+    getAge,
     trace("+++ character +++")
   )();
 };
 
 export default generatCharacter();
-
-//[31,26,23,36,30,35,26,39,33,31]
-//[36,26,23,41,35,35,26,39,33,31]

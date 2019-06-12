@@ -11,10 +11,11 @@ function App() {
       <div className="c-intro">
         <p>
           Hello {character.firstName} {character.lastName}, you are a{" "}
-          {character.race.name} {character.gender.name}.
+          {character.race.name} {character.gender.name} {character.age}.
         </p>
         <p>
-          You live your life as a {character.class} {character.career.name}
+          You live your life as a {character.class} {character.career.name}{" "}
+          {character.wounds}
         </p>
       </div>
     </div>
